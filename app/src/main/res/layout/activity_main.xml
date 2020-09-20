@@ -6,90 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/tvView1"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:textColor="#ff2000"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:text="View1"/>
 
-    <TextView
-        android:id="@+id/tvView2"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        android:textColor="#00BCD4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:text="View2"/>
-
-    <TextView
-        android:id="@+id/tvView3"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:textColor="#FF9800"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:text="View3"/>
-    <TextView
-        android:id="@+id/tvView4"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        android:textColor="#F44336"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:text="View4"/>
-
-    <TextView
-        android:id="@+id/tvView5"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        android:textColor="#3F51B5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:text="View5"/>
-    <TextView
-        android:id="@+id/tvView6"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        android:textColor="#8BC34A"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:text="View6"/>
-
-    <TextView
-        android:id="@+id/tvView7"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-         app:layout_constraintTop_toTopOf="parent"
-        android:textColor="#E91E63"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:text="View7"/>
-
-    <TextView
-        android:id="@+id/tvView8"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:textColor="#E91E63"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:text="View8"/>
     <TextView
         android:textStyle="bold"
-        android:id="@+id/tvView9"
+        android:id="@+id/tvView1"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -98,5 +18,46 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
-        android:text="View9"/>
+        android:text="View1"/>
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/tvView2"
+        app:layout_constraintRight_toLeftOf="@id/tvView1"
+        app:layout_constraintBottom_toTopOf="@id/tvView1"
+        android:textColor="#FF5722"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="View2"/>
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/tvView3"
+        app:layout_constraintLeft_toRightOf="@id/tvView1"
+
+        app:layout_constraintBottom_toTopOf="@id/tvView1"
+        android:textColor="#00BCD4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="View3"/>
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/tvView4"
+        app:layout_constraintLeft_toRightOf="@id/tvView1"
+        app:layout_constraintTop_toBottomOf="@id/tvView1"
+        android:textColor="#FFC107"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="View4"/>
+    <TextView
+        android:textStyle="bold"
+        android:id="@+id/tvView5"
+        app:layout_constraintRight_toLeftOf="@id/tvView1"
+        app:layout_constraintTop_toBottomOf="@id/tvView1"
+        android:textColor="#FFC107"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="View5"/>
 </android.support.constraint.ConstraintLayout>
